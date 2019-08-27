@@ -35,7 +35,7 @@ nav .nav-link::after {
 	display: block;
 	visibility: hidden;
 	opacity: 0;
-    content: '';
+	content: '';
 	width:100%;
 	height: 3px;
 	background-color: #fff;
@@ -66,7 +66,6 @@ header, #section-img, #contact {
 	width: 100%;
 }
 
-
 header .section-container {
 	margin-top: -80px;
 }
@@ -80,8 +79,8 @@ header h1 span {
 	color: #fff;
 	-webkit-transition: all 0.5s ease-in-out;
 	animation-name: title_color_change;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
 }
 
 header h1 span:hover {
@@ -89,52 +88,44 @@ header h1 span:hover {
 }
 
 header h1 span:nth-child(1) {
-	  animation-delay:0s;
+	animation-delay:0s;
 }
 
 header h1 span:nth-child(2) {
-	  animation-delay: 1s;
+	animation-delay: 1s;
 }
-
 
 header h1 span:nth-child(3) {
-  animation-delay:2s;	
+	animation-delay:2s;	
 }
-
 
 header h1 span:nth-child(4) {
-	  animation-delay: 3s;
+	animation-delay: 3s;
 }
-
 
 header h1 span:nth-child(5) {
-	  animation-delay: 4s;
+	animation-delay: 4s;
 }
-
 
 header h1 span:nth-child(6) {
-	  animation-delay: 5s;
+	animation-delay: 5s;
 }
-
 
 header h1 span:nth-child(7) {
-	  animation-delay: 6s;
+	animation-delay: 6s;
 }
-
 
 header h1 span:nth-child(8) {
-	  animation-delay: 7s;
+	animation-delay: 7s;
 }
-
 
 header h1 span:nth-child(9) {
-	  animation-delay: 8s;
+	animation-delay: 8s;
 }
 
-
 @keyframes title_color_change {
-  from {color: #fff;}
-  to {color: #582782;}
+	from {color: #fff;}
+	to {color: #582782;}
 }
 
 header h2 {
@@ -167,14 +158,13 @@ header h2 {
 	margin:0 auto;
 }
 
-
 .point {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	margin: 80px auto
-;}
+	margin: 80px auto;
+}
 
 .point .point-text-box {
 	background-size: 340px auto;
@@ -249,7 +239,7 @@ header h2 {
 #contact{
 	background-image: url('../images/contact-bg.jpg');
 	height: 526px;
-		display: flex;
+	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	padding-top: 35px;
@@ -322,40 +312,48 @@ header h2 {
 
 }
 
-
 @media screen and (max-width: 1200px) {
+
 	.point img {
 		width: 350px;
 		height: 200px;
 	}
+
 	.point .point-text-box {
 		background-size: 200px;
 		padding-left: 100px;
 	}
+
 	.point-2 .point-text-box {
 		padding-left: 140px;
 	}
+
 	.point-3 .point-text-box {
 		padding-left: 130px;
 	}
+
 	#section-img .section-img-text {
 		font-size: 100px;
 	}
+
 	header h1 {
 		font-size: 180px;
 	}
 }
 
 @media screen and (max-width: 950px) {
+
 	.point img {
 		width: 300px;
 	}
 }
 
 @media screen and (max-width: 900px) {
+
 	.point {
 		flex-wrap: wrap;
 	}
+
 	.right-point, .left-part {
 		margin:0 auto;
 	}
@@ -364,10 +362,10 @@ header h2 {
 		width: 90vw;
 		height: 350px;
 	}
+
 	.point-1 .point-text-box {
 		padding-left: 100px;
 	}
-
 
 	.point .point-button {
 		float: right;
@@ -417,12 +415,10 @@ header h2 {
 		font-size: 80px;
 		text-align: center;
 	}
-
 }
 
-
-
 @media screen and (max-width: 600px) {
+
 	.point .point-text-box {
 		background-size: 100px;
 		padding-left: 60px;
@@ -436,6 +432,7 @@ header h2 {
 	.point-1 .point-text-box h3 {
 		padding-top: 25px;	
 	}
+
 	header h1 {
 		font-size: 100px;
 	}
@@ -481,10 +478,9 @@ header h2 {
 		background-size: 80px;
 		padding-left: 40px;
 		padding-right: 40px;
-
 	} 
 
-		#section-img .section-img-text, #contact .contact-text{
+	#section-img .section-img-text, #contact .contact-text{
 		font-size: 50px;
 		line-height: 55px;
 	}
@@ -514,7 +510,7 @@ header h2 {
 		padding-right: 20px;
 	}
 
-.point .point-text-box h3 {
+	.point .point-text-box h3 {
 		text-align: right;
 	}
 
@@ -525,6 +521,7 @@ header h2 {
 	.contact-text {
 		width: 90vw;
 	}
+	
 	#contact .contact-form {
 		width: auto;
 		margin:0 auto;
