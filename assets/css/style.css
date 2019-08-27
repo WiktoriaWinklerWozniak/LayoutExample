@@ -386,7 +386,8 @@ section {
 	}
 
 	.point-2 .right-point {
-		padding-top: 120px;
+		order: 1;
+		padding-top: 50px;
 	}
 
 	#section-img {
