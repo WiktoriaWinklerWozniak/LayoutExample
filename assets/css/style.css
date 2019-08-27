@@ -137,6 +137,11 @@ header h2 {
 	letter-spacing: 1px;
 }
 
+section {
+	margin-top: -5px;
+	padding-top: 5px;
+}
+
 #section-img {
 	background-image: url('../images/section-image.jpg');
 	height: 420px;
@@ -521,7 +526,7 @@ header h2 {
 	.contact-text {
 		width: 90vw;
 	}
-	
+
 	#contact .contact-form {
 		width: auto;
 		margin:0 auto;
@@ -536,6 +541,7 @@ header h2 {
 		line-height: 45px;
 	}
 }
+
 
 
 
