@@ -142,11 +142,6 @@ section {
 	padding-top: 1px;
 }
 
-section#team {
-	margin-top: -70px;
-	padding-top: 70px;
-}
-
 #section-img {
 	background-image: url('../images/section-image.jpg');
 	height: 420px;
@@ -522,6 +517,11 @@ section#team {
 		font-size: 14px;
 		padding-top: 0px;
 	}
+
+	section#team {
+	margin-top: -70px;
+	padding-top: 70px;
+}
 
 	.point .point-text-box {
 		background-size: 60px;
