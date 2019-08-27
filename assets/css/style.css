@@ -138,8 +138,13 @@ header h2 {
 }
 
 section {
-	margin-top: -5px;
-	padding-top: 5px;
+	margin-top: -1px;
+	padding-top: 1px;
+}
+
+section#team {
+	margin-top: -70px;
+	padding-top: 70px;
 }
 
 #section-img {
@@ -529,7 +534,7 @@ section {
 	}
 
 	.point-2 {
-		margin-top: -30px;
+		margin-top: 0px;
 	}
 
 	.contact-text {
